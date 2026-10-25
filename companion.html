@@ -3,53 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Planet Crafter Companion</title>
+    <title>Planet Crafter Companion — RizeAbove DataWorks</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-    <img src="logo.png" alt="RizeAbove DataWorks Logo" class="logo">
-    <nav>
+<header class="header-bar">
+    <div class="header-left">
+        <a href="index.html"><img src="logo.png" alt="RizeAbove DataWorks Logo" class="logo"></a>
+    </div>
+
+    <div class="header-center">
+        <h1 class="site-title">Planet Crafter Companion</h1>
+    </div>
+
+    <nav class="header-right">
         <a href="index.html">Home</a>
+        <a href="#features">Features</a>
+        <a href="#gallery">Blueprints</a>
+        <a href="#support">Support</a>
     </nav>
 </header>
 
-<main>
+<section class="hero-section text-center">
+    <img src="pcc_badge.png" alt="Planet Crafter Companion Badge" class="hero-badge">
+    <h1 class="hero-title">Planet Crafter Companion</h1>
+    <h2 class="hero-tagline">Plan. Craft. Automate. Transform.</h2>
+    <p class="hero-sub">The ultimate interactive companion, base planner, and strategy suite for <em>The Planet Crafter</em>.</p>
+</section>
 
-<section class="card">
-    <div class="product-card">
-        <img src="pcc_badge.png" alt="Planet Crafter Companion Badge" class="product-icon">
-        <div>
-            <h2>Planet Crafter Companion</h2>
-            <p>The ultimate companion app for Planet Crafter. Designed to help you plan, track, and optimize your terraforming journey.</p>
+<main class="main-container text-center">
+
+    <!-- FEATURE HIGHLIGHTS GRID -->
+    <section id="features" class="section section-dark text-center">
+        <h2 class="section-title">Key Features</h2>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🏗️</div>
+                <h3>Interactive Base Planner</h3>
+                <p>Build custom structure checklists and calculate raw material requirements, power grid consumption, and terraformation outputs in real time.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📐</div>
+                <h3>Build Blueprints Catalog</h3>
+                <p>Browse pre-designed base structures, lounges, and wildlife sanctuaries and load them directly into your Planner with 1 tap.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🧬</div>
+                <h3>Crafting &amp; Station Guides</h3>
+                <p>Explore multi-tier production chains with expandable ingredient trees (`▶`) and specialized guides for Genetic Extractors &amp; Synthesizers.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3>Metric SI Unlock Scale</h3>
+                <p>View item unlock requirements formatted in clean metric SI scales (`Ti`, `GTi`, `SysTi`, `OcdSysTi`, `kW/s`).</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🗺️</div>
+                <h3>Satellite Maps</h3>
+                <p>Pan and pinch-zoom through high-resolution satellite terrain maps for Planet Prime, Selena Moon, and DLC worlds.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📖</div>
+                <h3>Master Strategy Guides</h3>
+                <p>Author Greg Nason's Early, Mid, and Endgame Guides covering 3×3 Auto Crafter matrices, the 3-Trip Policy, and 6-world interplanetary expansion.</p>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section class="card">
-    <h3>Features</h3>
-    <ul>
-        <li>Resource tracking and planning</li>
-        <li>Blueprint and build organization</li>
-        <li>Terraforming progress tools</li>
-        <li>Prebuilt base layouts</li>
-        <li>Automation helpers</li>
-    </ul>
-</section>
+    <!-- BLUEPRINTS & SCREENSHOT GALLERY -->
+    <section id="gallery" class="section section-dark text-center">
+        <h2 class="section-title">Build Blueprints &amp; Satellite Maps</h2>
+        <p class="section-sub">Explore prebuilt structures and satellite maps included in the companion.</p>
 
-<section class="card">
-    <h3>Support</h3>
-    <p>Need help or want to share feedback?</p>
-    <p>Email: <a href="mailto:support@rizeabovedataworks.com">support@rizeabovedataworks.com</a></p>
-    <p>Discord: <a href="https://discord.gg/yourserver" target="_blank">Join the Community</a></p>
-</section>
+        <div class="gallery-grid">
+            <div class="gallery-card">
+                <img src="pb_beginning_base.png" alt="Beginning Base" class="gallery-img">
+                <h4>Beginning Base</h4>
+                <p>Starter habitat with wind power, storage crates, and monitoring screens.</p>
+            </div>
+
+            <div class="gallery-card">
+                <img src="simple_sauna.png" alt="Simple Sauna" class="gallery-img">
+                <h4>Simple Sauna</h4>
+                <p>Cozy timber &amp; glass sauna featuring smart couches and a glass ceiling.</p>
+            </div>
+
+            <div class="gallery-card">
+                <img src="waterfront_retreat.png" alt="Waterfront Retreat" class="gallery-img">
+                <h4>Waterfront Retreat</h4>
+                <p>Lakeside boardwalk retreat with fish farms, fountains, and fireplace lounge.</p>
+            </div>
+
+            <div class="gallery-card">
+                <img src="primal_doorly_zoo.png" alt="Primal Doorly Zoo" class="gallery-img">
+                <h4>Primal Doorly Zoo</h4>
+                <p>Expansive wildlife sanctuary featuring fenced habitats, shelters, and automated feeders.</p>
+            </div>
+
+            <div class="gallery-card">
+                <img src="prime_map.png" alt="Planet Prime Satellite Map" class="gallery-img">
+                <h4>Planet Prime Satellite Map</h4>
+                <p>High-resolution 2D satellite terrain map with pan and pinch-zoom gesture support.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SUPPORT & CONTACT -->
+    <section id="support" class="section section-dark text-center">
+        <h2 class="section-title">Support &amp; Feedback</h2>
+        <p>Have questions, suggestions, or bug reports? We'd love to hear from you!</p>
+        <p><strong>Developer Email</strong>: <a href="mailto:rizeabovedataworks@gmail.com">rizeabovedataworks@gmail.com</a></p>
+        <p><strong>Support Email</strong>: <a href="mailto:support@rizeabovedataworks.com">support@rizeabovedataworks.com</a></p>
+        <p><strong>Discord Community</strong>: <a href="https://discord.gg/yourserver" target="_blank">Join the Community</a></p>
+    </section>
 
 </main>
 
 <footer>
-    <p>© 2026 RizeAbove DataWorks</p>
+    <p>© 2026 RizeAbove DataWorks. All rights reserved.</p>
+    <p class="disclaimer">Planet Crafter Companion is an unofficial fan application and is not affiliated with or endorsed by Miju Games.</p>
 </footer>
 
 </body>
