@@ -127,6 +127,59 @@ a:hover {
     margin-bottom: 40px;
 }
 
+/* PRODUCTS GRID (HOMEPAGE) */
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.product-card-item {
+    background-color: #11263F;
+    padding: 30px 25px;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 200, 255, 0.25);
+    text-align: center;
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-card-item:hover {
+    transform: translateY(-6px);
+    border-color: #00E08A;
+    box-shadow: 0 0 25px rgba(0, 224, 138, 0.2);
+}
+
+.product-card-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 16px;
+    margin-bottom: 15px;
+}
+
+.product-card-emoji {
+    font-size: 4rem;
+    margin-bottom: 15px;
+    line-height: 1;
+}
+
+.product-card-item h3 {
+    color: #00E08A;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.product-card-item p {
+    color: #D9D9D9;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
 /* ABOUT CARDS & BRAND FOUNDATION */
 .about-card {
     background-color: #11263F;
