@@ -127,6 +127,60 @@ a:hover {
     margin-bottom: 40px;
 }
 
+/* BREAKING NEWS CARD STYLING */
+.news-card {
+    background-color: #11263F;
+    padding: 35px 30px;
+    border-radius: 16px;
+    border: 1px solid rgba(0, 224, 138, 0.4);
+    text-align: center;
+    box-shadow: 0 0 30px rgba(0, 224, 138, 0.15);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.news-badge {
+    display: inline-block;
+    background-color: #00E08A;
+    color: #0A1A2F;
+    font-weight: bold;
+    font-size: 0.85rem;
+    padding: 6px 14px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.news-card h3 {
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.news-card p {
+    color: #E6E6E6;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.news-callout {
+    background-color: #0A1A2F;
+    border-left: 4px solid #00C8FF;
+    padding: 16px 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.news-callout p {
+    margin: 0;
+    color: #00C8FF;
+    font-size: 1.05rem;
+}
+
 /* PRODUCTS GRID (HOMEPAGE) */
 .products-grid {
     display: grid;
